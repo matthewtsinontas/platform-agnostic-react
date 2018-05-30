@@ -1,5 +1,5 @@
 {
   "lerna": "2.8.0",
-  "packages": ["components/*", "site"],
+  "packages": ["components/*", "site", "api", "app", "storybook"],
   "version": "independent"
 }
