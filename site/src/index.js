@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Title from 'title';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(
-    <Title text="Site, not mobile" />,
-    document.getElementById('mount')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
