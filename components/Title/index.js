@@ -3,7 +3,7 @@ import { TitleWrapper, TitleText } from './Styles';
 
 const Title = ({ text }) => (
     <TitleWrapper>
-        <TitleText>{text}</TitleText>
+        <TitleText>{text} -  something else</TitleText>
     </TitleWrapper>
 )
 
