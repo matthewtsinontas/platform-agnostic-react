@@ -3,8 +3,8 @@
 		"lerna": "^2.8.0"
 	},
 	"scripts": {
-	    "lerna:bootstrap": "lerna bootstrap",
-	    "lerna:clean": "lerna clean",
-	    "lerna:publish": "lerna publish"
-    }
+		"lerna:bootstrap": "lerna bootstrap",
+		"lerna:clean": "lerna clean",
+		"lerna:publish": "lerna publish"
+	}
 }
